@@ -3,9 +3,9 @@ import styles from "./Button.module.scss";
 
 const Button = () => {
   return (
-    <div className={styles.button} onClick={() => alert("Button Clicked")}>
+    <button className={styles.button} onClick={() => alert("Button Clicked")}>
       Click Me!
-    </div>
+    </button>
   );
 };
 
